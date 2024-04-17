@@ -1,0 +1,3 @@
+[submodule "Iron/vendor/spdlog"]
+	path = Iron/vendor/spdlog
+	url = https://github.com/gabime/spdlog
