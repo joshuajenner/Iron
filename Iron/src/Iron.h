@@ -3,8 +3,8 @@
 
 // For use by Iron applications
 
-#include <stdio.h>
 #include "Iron/Application.h"
+#include "Iron/Log.h"
 
 
 // ---------- Entry Point ----------

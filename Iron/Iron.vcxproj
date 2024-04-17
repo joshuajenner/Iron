@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Iron\Log.h" />
     <ClInclude Include="src\Iron.h" />
     <ClInclude Include="src\Iron\Application.h" />
     <ClInclude Include="src\Iron\Core.h" />
     <ClInclude Include="src\Iron\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Iron\Log.cpp" />
     <ClCompile Include="src\Iron\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -66,7 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>IRN_PLATFORM_WINDOWS;IRN_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Iron\vendor\sdplog\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Iron\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
