@@ -4,6 +4,9 @@
     <Filter Include="Iron">
       <UniqueIdentifier>{DD0A877C-C941-880D-722E-6E105E44040F}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Iron\Events">
+      <UniqueIdentifier>{213C4291-8DF1-BA86-16E6-B45D829AB18A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Iron.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Iron\EntryPoint.h">
       <Filter>Iron</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Iron\Events\ApplicationEvent.h">
+      <Filter>Iron\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Iron\Events\Event.h">
+      <Filter>Iron\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Iron\Events\KeyEvent.h">
+      <Filter>Iron\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Iron\Events\MouseEvent.h">
+      <Filter>Iron\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Iron\Log.h">
       <Filter>Iron</Filter>
